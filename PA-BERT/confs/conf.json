@@ -1,0 +1,22 @@
+[
+    {
+        "name": "seed",
+        "type": "choice",
+        "values": [40, 41, 42]
+    },
+    {
+        "name": "per_gpu_train_batch_size",
+        "type": "choice",
+        "values": [8]
+    },
+    {
+        "name": "num_train_epochs",
+        "type": "choice",
+        "values": [2.0, 3.0]
+    },
+    {
+        "name": "learning_rate",
+        "type": "choice",
+        "values": [1e-5, 2e-5]
+    }
+]
